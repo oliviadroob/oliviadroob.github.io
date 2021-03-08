@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+.line {
+    width: 2px;
+    height: 100%;
+    background-color: red;
+    float: left;
+    margin-left: 6px; 
+
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.redline { 
+    height: 2px;
+    background-color: red;
+    width: 50%;
+    margin-left:-2px ;
+}
+.menu {
+    width: 440px;
+    float:inherit;
+    height: 300px;
+    position: fixed;
+    left: 8px;
+  }
+.content {
+    height: 800px;
+    width: 500px;
+    margin-left: 440px;
+    
+}
+
+.flex {
+    display: flex;
+}
+
+.space {height:10px;}
+.text {color: blue; text-decoration: underline;} 
+p {padding-left: 80px;}
+
+.video {
+    padding-bottom: 24px;
+}
